@@ -1,0 +1,53 @@
+main{
+    height:  800px;
+    background-color: lightgreen;
+}
+.input-group{
+    height: 20px;
+}
+.numero{
+    font-size:30px;
+    width:100px;
+    height:100px;
+    text-align:center;
+    vertical-align: middle;
+   }
+
+
+#griglia{
+ margin: 0 auto;
+ width: 500px;
+height: 500px;
+padding: 2rem;
+}
+  /* #griglia .box1{
+    border: 2px solid black;
+    width: calc(100% / 10);
+    height:  calc(100% / 10);
+    cursor: pointer;
+    float: left;
+}   */
+/* #griglia .box2{
+    border: 2px solid black;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    float: left;
+}   */
+
+ #griglia .box3{
+    border: 2px solid black;
+    width: calc(100% / 7);
+    height:  calc(100% / 7);
+    float:left;
+}   
+
+#griglia .box1.active{
+    background-color:lightskyblue;
+}
+
+
+.clearfix::after{
+    clear: both;
+    display: table;
+    content: "";
+}
